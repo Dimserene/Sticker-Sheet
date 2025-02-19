@@ -151,7 +151,7 @@ SMODS.Sticker {
 		label = "Unrolled",
 		name = "Unrolled",
 		text = {
-			"Takes {C:attention}#1#m{} dollar",
+			"Takes {C:attention}#1#{} dollar",
 			"every reroll"
 		}
 	},
@@ -160,7 +160,7 @@ SMODS.Sticker {
 	end,
 	atlas = "stickers",
 	pos = {x=2,y=0},
-	badge_colour = HEX('195E00'),
+	badge_colour = HEX('06613D'),
 	needs_enable_flag = false,
 	should_apply = function(self,card,center,area,bypass_roll)
 		local yes = SMODS.Sticker.should_apply(self,card,center,area,bypass_roll)
@@ -256,7 +256,7 @@ SMODS.Sticker {
 	},
 	atlas = "stickers",
 	pos = {x=1,y=1},
-	badge_colour = HEX('B27B25'),
+	badge_colour = HEX('671B16'),
 	needs_enable_flag = false,
 	sets = {
 		Joker = false,
