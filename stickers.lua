@@ -47,7 +47,7 @@ SMODS.Sticker {
 	pos = {x=0,y=0},
 	badge_colour = HEX('195E00'),
 	needs_enable_flag = false,
-	rate = 0.1
+	rate = 0.1,
 	
 	calculate = function(self, card, context)
 		
@@ -79,7 +79,7 @@ SMODS.Sticker {
 	pos = {x=1,y=0},
 	badge_colour = HEX('ADB200'),
 	needs_enable_flag = false,
-	rate = 0.1
+	rate = 0.1,
 	
 	should_apply = function(self,card,center,area,bypass_roll)
 		local yes = SMODS.Sticker.should_apply(self,card,center,area,bypass_roll)
@@ -163,7 +163,7 @@ SMODS.Sticker {
 	pos = {x=2,y=0},
 	badge_colour = HEX('06613D'),
 	needs_enable_flag = false,
-	rate = 0.2
+	rate = 0.2,
 	should_apply = function(self,card,center,area,bypass_roll)
 		local yes = SMODS.Sticker.should_apply(self,card,center,area,bypass_roll)
 		
@@ -199,7 +199,7 @@ SMODS.Sticker {
 	pos = {x=0,y=1},
 	badge_colour = HEX('B27B25'),
 	needs_enable_flag = false,
-	rate = 0.1
+	rate = 0.1,
 	sets = {
 		Joker = false,
 		Tarot = true,
@@ -261,7 +261,7 @@ SMODS.Sticker {
 	pos = {x=1,y=1},
 	badge_colour = HEX('671B16'),
 	needs_enable_flag = false,
-	rate = 0.2
+	rate = 0.2,
 	sets = {
 		Joker = false,
 		Tarot = true,
